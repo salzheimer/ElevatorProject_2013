@@ -70,6 +70,4 @@ object guiOutput {
 		//Place your code here for when the alarm mode is switched to off.
 		println("Alarm Off")
 	}
-
-
 }

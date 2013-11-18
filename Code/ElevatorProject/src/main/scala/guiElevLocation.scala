@@ -27,9 +27,7 @@ class guiElevLocation(){
 	val floor1 = new RadioButton("1")
 	val loc1 = new RadioButton()
 	
-	val radios = List(loc0,floor3,loc31,loc32,loc33,loc34,loc35,loc36,loc37,loc38,
-												 floor2,loc21,loc22,loc23,loc24,loc25,loc26,loc27,
-												 floor1)
+	val radios = List(loc0,floor3,loc31,loc32,loc33,loc34,loc35,loc36,loc37,loc38,floor2,loc21,loc22,loc23,loc24,loc25,loc26,loc27,floor1)
 	radios.last.selected = true
 	for(e <- radios)
 		e.enabled = false
@@ -40,10 +38,10 @@ class guiElevLocation(){
 			for(i <- 0 to radios.length-2)
 			{
 				if(radios(i+1).selected)
-					{
-						radios(i+1).selected = false
-						radios(i).selected = true
-					}
+				{
+					radios(i+1).selected = false
+					radios(i).selected = true
+				}
 			}
 		}
 	}
@@ -54,10 +52,10 @@ class guiElevLocation(){
 			while(i >=  1)
 			{
 				if(radios(i-1).selected)
-					{
-						radios(i).selected = true
-						radios(i-1).selected = false
-					}
+				{
+					radios(i).selected = true
+					radios(i-1).selected = false
+				}
 				i = i - 1
 			}
 		}
@@ -67,16 +65,16 @@ class guiElevLocation(){
 	def atFloor1():Boolean = floor1.selected
 	val panel = new BoxPanel(Orientation.Vertical)
 	{
-				val spacePanel = new FlowPanel()
-				{
-					maximumSize = (100,125)
-    		  minimumSize = (100,125)
-    		  preferredSize = (100,125)
-				}
-				maximumSize = (100,600)
-    		minimumSize = (100,600)
-    		preferredSize = (100,600)
-    		contents += spacePanel
-    		contents ++= radios
+		val spacePanel = new FlowPanel()
+		{
+			maximumSize = (100,125)
+    		minimumSize = (100,125)
+    		preferredSize = (100,125)
+		}
+		maximumSize = (100,600)
+    	minimumSize = (100,600)
+    	preferredSize = (100,600)
+    	contents += spacePanel
+    	contents ++= radios
 	}
 }

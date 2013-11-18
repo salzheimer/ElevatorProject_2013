@@ -1,6 +1,6 @@
 object SystemStatus {
 
- //These booleans state whether a door is open or not.
+	//These booleans state whether a door is open or not.
 	var door1Open = false
 	var door2Open = false
 	var door3Open = false
@@ -15,7 +15,6 @@ object SystemStatus {
 	var elevator2ButtonLit = false
 	var elevator3ButtonLit = false
 	var elevatorStopButtonLit = false
-
 
 	var UpArrowOn = false
 	var DownArrowOn = false

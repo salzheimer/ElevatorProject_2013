@@ -16,8 +16,8 @@ class guiElevLocController(elevLocation:guiElevLocation, door1:guiDoor, door2:gu
 				Thread.sleep(500)
 				elevLocation.up
 				if(door1.isOpen) door1.open //Re-renders dooors
-	  		if(door2.isOpen) door2.open
-	  		if(door3.isOpen) door3.open
+				if(door2.isOpen) door2.open
+				if(door3.isOpen) door3.open
 				Thread.sleep(500)
 			}
 			case 2 =>
@@ -25,8 +25,8 @@ class guiElevLocController(elevLocation:guiElevLocation, door1:guiDoor, door2:gu
 				Thread.sleep(500)
 				elevLocation.down
 				if(door1.isOpen) door1.open //Re-renders doors
-	  		if(door2.isOpen) door2.open
-	  		if(door3.isOpen) door3.open
+				if(door2.isOpen) door2.open
+				if(door3.isOpen) door3.open
 				Thread.sleep(500)
 			}
 			case _ => 
