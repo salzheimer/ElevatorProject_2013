@@ -10,7 +10,5 @@ class guiElevatorButton(a:Action) extends Button(a)
 		 this.foreground = Color.orange
 	}
 	def lightOff() = 
-	{
-		this.foreground = Color.black
-	}
+			this.foreground = Color.black
 }

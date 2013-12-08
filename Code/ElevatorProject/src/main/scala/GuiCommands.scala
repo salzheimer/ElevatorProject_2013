@@ -2,25 +2,39 @@ object guiOutput {
 
 	def Floor1Up()
 	{
-		//Place your code here for when the up button is pressed on floor 1.
+		var buttonController = new buttonController(new modelDirectionButton(1,true),new modelDirectionButton(2,true),
+new  modelDirectionButton(3,false), new modelDirectionButton(2,false))
+		buttonController.start()
+		buttonController ! "up 1 direction"
 		println("Floor 1 Up Button Pressed")
 	}
 	
 	def Floor2Up()
 	{
-		//Place your code here for when the up button is pressed on floor 2.
+		var buttonController = new buttonController(new modelDirectionButton(1,true),new modelDirectionButton(2,true),
+new  modelDirectionButton(3,false), new modelDirectionButton(2,false))
+		buttonController.start()
+		
+		buttonController ! "up 2 direction"
 		println("Floor 2 Up Button Pressed")
 	}
 
 	def Floor2Down()
 	{
-		//Place your code here for when the down button is pressed on floor2.
+		var buttonController = new buttonController(new modelDirectionButton(1,true),new modelDirectionButton(2,true),
+new  modelDirectionButton(3,false), new modelDirectionButton(2,false))
+		buttonController.start()
+		
+		buttonController ! "down 2 direction"
 		println("Floor 2 Down Button Pressed")
 	}
 
 	def Floor3Down()
 	{
-		//Place your code here for when the down button is pressed on floor3.
+		var buttonController = new buttonController(new modelDirectionButton(1,true),new modelDirectionButton(2,true),
+new  modelDirectionButton(3,false), new modelDirectionButton(2,false))
+		buttonController.start()
+		buttonController ! "down 3 direction"
 		println("Floor 3 Down Button Pressed")
 	}
 
@@ -70,4 +84,6 @@ object guiOutput {
 		//Place your code here for when the alarm mode is switched to off.
 		println("Alarm Off")
 	}
+
+
 }
