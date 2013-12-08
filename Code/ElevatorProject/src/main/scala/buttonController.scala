@@ -9,13 +9,14 @@ var downButtonFloor3:modelDirectionButton, var downButtonFloor2:modelDirectionBu
 	upButtonFloor2 = new modelDirectionButton(2,true)
 	downButtonFloor3 = new modelDirectionButton(3,false)
   downButtonFloor2 = new modelDirectionButton(2,false)
+  Passenger onePassenger = new Passenger()
 	
 	def act
 	{
 		while(true){
 			receive{
 				case "up 1 direction" => 
-						upButtonFloor1.lightUp("up 1 direction")
+						onePassenger.pressButton(upButtonFloor1)
 				case "up 2 direction" =>
 						upButtonFloor2.lightUp("up 2 direction")
 				case "down 3 direction" =>
