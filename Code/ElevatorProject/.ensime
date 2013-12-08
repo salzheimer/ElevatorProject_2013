@@ -1,9 +1,49 @@
-;; This config was generated using ensime-config-gen. Feel free to customize its contents manually.
+;; If your project contains a lot of files, it is advisable to enable (:disable-source-load-on-startup t)
+;; Otherwise Ensime might incur a massive lag at startup time
+;; See more information about that at http://aemoncannon.github.com/ensime/index.html
 
 (
-
-:project-package ""
-
-:use-sbt t
-
+  :subprojects (
+    (
+      :name "class-project"
+      :module-name "class-project"
+      :depends-on-modules (
+      
+      )
+      :package "class-project"
+      :version "1.0"
+      :compile-deps (
+        "/home/eeach/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.9.1.jar"
+        "/home/eeach/.ivy2/cache/org.scala-lang/scala-swing/jars/scala-swing-2.9.1.jar"
+        "/home/eeach/.ivy2/cache/org.scala-tools.time/time_2.9.1/jars/time_2.9.1-0.5.jar"
+        "/home/eeach/.ivy2/cache/joda-time/joda-time/jars/joda-time-1.6.2.jar"
+      )
+      :runtime-deps (
+        "/home/eeach/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.9.1.jar"
+        "/home/eeach/.ivy2/cache/org.scala-lang/scala-swing/jars/scala-swing-2.9.1.jar"
+        "/home/eeach/.ivy2/cache/org.scala-tools.time/time_2.9.1/jars/time_2.9.1-0.5.jar"
+        "/home/eeach/.ivy2/cache/joda-time/joda-time/jars/joda-time-1.6.2.jar"
+        "/home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/target/scala-2.9.1/classes"
+        "/home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/target/scala-2.9.1/classes"
+      )
+      :test-deps (
+        "/home/eeach/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.9.1.jar"
+        "/home/eeach/.ivy2/cache/org.scala-lang/scala-swing/jars/scala-swing-2.9.1.jar"
+        "/home/eeach/.ivy2/cache/org.scala-tools.time/time_2.9.1/jars/time_2.9.1-0.5.jar"
+        "/home/eeach/.ivy2/cache/joda-time/joda-time/jars/joda-time-1.6.2.jar"
+        "/home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/target/scala-2.9.1/classes"
+        "/home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/target/scala-2.9.1/test-classes"
+      )
+      :source-roots (
+        "/home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/scala"
+        "/home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/java"
+        "/home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/target/scala-2.9.1/src_managed/main"
+        "/home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/test/scala"
+        "/home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/test/java"
+        "/home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/target/scala-2.9.1/src_managed/test"
+      )
+      :target "/home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/target/scala-2.9.1/classes"
+      :test-target "/home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/target/scala-2.9.1/test-classes"
+    )
+  )
 )
