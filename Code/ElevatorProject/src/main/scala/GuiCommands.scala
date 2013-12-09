@@ -1,9 +1,7 @@
 object guiOutput {
-
 	def Floor1Up()
 	{
-		var buttonController = new buttonController(new modelDirectionButton(1,true),new modelDirectionButton(2,true),
-new  modelDirectionButton(3,false), new modelDirectionButton(2,false))
+		var buttonController = new buttonController()
 		buttonController.start()
 		buttonController ! "up 1 direction"
 		println("Floor 1 Up Button Pressed")
@@ -11,8 +9,7 @@ new  modelDirectionButton(3,false), new modelDirectionButton(2,false))
 	
 	def Floor2Up()
 	{
-		var buttonController = new buttonController(new modelDirectionButton(1,true),new modelDirectionButton(2,true),
-new  modelDirectionButton(3,false), new modelDirectionButton(2,false))
+		var buttonController = new buttonController()
 		buttonController.start()
 		
 		buttonController ! "up 2 direction"
@@ -21,8 +18,7 @@ new  modelDirectionButton(3,false), new modelDirectionButton(2,false))
 
 	def Floor2Down()
 	{
-		var buttonController = new buttonController(new modelDirectionButton(1,true),new modelDirectionButton(2,true),
-new  modelDirectionButton(3,false), new modelDirectionButton(2,false))
+		var buttonController = new buttonController()
 		buttonController.start()
 		
 		buttonController ! "down 2 direction"
@@ -31,8 +27,7 @@ new  modelDirectionButton(3,false), new modelDirectionButton(2,false))
 
 	def Floor3Down()
 	{
-		var buttonController = new buttonController(new modelDirectionButton(1,true),new modelDirectionButton(2,true),
-new  modelDirectionButton(3,false), new modelDirectionButton(2,false))
+		var buttonController = new buttonController()
 		buttonController.start()
 		buttonController ! "down 3 direction"
 		println("Floor 3 Down Button Pressed")
@@ -40,25 +35,33 @@ new  modelDirectionButton(3,false), new modelDirectionButton(2,false))
 
 	def elevFloor1()
 	{
-		//Place your code here for when the 1 button is pressed in the elevator.
+		var buttonController = new buttonController()
+		buttonController.start()
+		buttonController ! "floor 1 button"
 		println("Elevator Button 1 Pressed")
 	}
 
 	def elevFloor2()
 	{
-		//Place your code here for when the 2 button is pressed in the elevator
+		var buttonController = new buttonController()
+		buttonController.start()
+		buttonController ! "floor 2 button"
 		println("Elevator Button 2 Pressed")
 	}
 
 	def elevFloor3()
 	{
-		//Place your code here for when the 3 button is pressed in the elevator
+		var buttonController = new buttonController()
+		buttonController.start()
+		buttonController ! "floor 3 button"
 		println("Elevator Button 3 Pressed")
 	}
 
 	def elevStop()
 	{
-		//Place your code here for when the stop button is pressed in the elevator
+		var buttonController = new buttonController()
+		buttonController.start()
+		buttonController ! "stop button"
 		println("Elevator Stop Button Pressed")
 	}
 
