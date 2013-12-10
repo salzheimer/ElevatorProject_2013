@@ -1,6 +1,6 @@
 import scala.actors.Actor
 import scala.actors.Actor._
-scala.collection.mutable.ArrayBuffer
+import scala.collection.mutable.ArrayBuffer
 
 class elevatorController 
  extends Actor {
@@ -15,6 +15,10 @@ class elevatorController
   var stopButton = new stopButton(2,"stop button")
   var onePassenger = new Passenger()
   var elevatorController = new elevatorController()
+  var door1 = new elevatorDoor(1)
+  var door2 = new elevatorDoor(2)
+  var door3 = new elevatorDoor(3)
+  var doorArray = new 
 	
 	def act
 	{
@@ -34,7 +38,7 @@ class elevatorController
 				{	
 					processFloor(elevator)
 				}
-				else if (direction){
+				else if (elevator.direction){
 					moveMotorUpOneFloor(elevator)
 					processFloor(elevator)					
 				}
@@ -46,7 +50,11 @@ class elevatorController
 		}
 
 	def processFloor(elevator:Elevator) = {
-		for (i <- elevator.requests) {
+			var Requests = new ArrayBuffer[ElevatorDoor]()	
+			Requests + door1
+			Requests + door2
+			Requests + door3
+			for ((i,index) <- elevator.requests). {
 			if ((i.requestedFloor == elevator.location) && checkDirection(elevator,i)){
 				elevatorDoors.open()
 				takeRequests()
@@ -86,3 +94,8 @@ class elevatorController
 				}
 				Motor.stop()
 		}
+ }
+
+ for ((line, i) <- Arr.zipWithIndex) {
+   println(i, line)
+}
