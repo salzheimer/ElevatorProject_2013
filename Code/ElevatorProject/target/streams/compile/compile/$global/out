@@ -1,106 +1,93 @@
-[0m[[0mdebug[0m] [0m[0m
-[0m[[0mdebug[0m] [0mInitial source changes: [0m
-[0m[[0mdebug[0m] [0m	removed:Set()[0m
-[0m[[0mdebug[0m] [0m	added: Set()[0m
-[0m[[0mdebug[0m] [0m	modified: Set(C:\Users\cnoreikis\Desktop\ElevatorProject_2013\Code\ElevatorProject\src\main\scala\controller\elevatorController.scala, C:\Users\cnoreikis\Desktop\ElevatorProject_2013\Code\ElevatorProject\src\main\scala\model\Elevator.scala, C:\Users\cnoreikis\Desktop\ElevatorProject_2013\Code\ElevatorProject\src\main\scala\controller\buttonController.scala)[0m
-[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
-[0m[[0mdebug[0m] [0mModified external sources: Set()[0m
-[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(C:\Users\cnoreikis\Desktop\ElevatorProject_2013\Code\ElevatorProject\src\main\scala\controller\elevatorController.scala, C:\Users\cnoreikis\Desktop\ElevatorProject_2013\Code\ElevatorProject\src\main\scala\model\Elevator.scala, C:\Users\cnoreikis\Desktop\ElevatorProject_2013\Code\ElevatorProject\src\main\scala\controller\buttonController.scala)[0m
-[0m[[0mdebug[0m] [0m[0m
-[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
-[0m[[0mdebug[0m] [0m	product: Set()[0m
-[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
-[0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mInitially invalidated: Set(C:\Users\cnoreikis\Desktop\ElevatorProject_2013\Code\ElevatorProject\src\main\scala\controller\elevatorController.scala, C:\Users\cnoreikis\Desktop\ElevatorProject_2013\Code\ElevatorProject\src\main\scala\model\Elevator.scala, C:\Users\cnoreikis\Desktop\ElevatorProject_2013\Code\ElevatorProject\src\main\scala\controller\buttonController.scala)[0m
-[0m[[0minfo[0m] [0mCompiling 3 Scala sources to C:\Users\cnoreikis\Desktop\ElevatorProject_2013\Code\ElevatorProject\target\scala-2.9.1\classes...[0m
-[0m[[0mdebug[0m] [0mInterfacing (CompilerInterface) with Scala compiler version 2.9.1.final[0m
-[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
-[0m[[0mdebug[0m] [0m	-d[0m
-[0m[[0mdebug[0m] [0m	C:\Users\cnoreikis\Desktop\ElevatorProject_2013\Code\ElevatorProject\target\scala-2.9.1\classes[0m
-[0m[[0mdebug[0m] [0m	-bootclasspath[0m
-[0m[[0mdebug[0m] [0m	C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\lib\jfr.jar;C:\Program Files\Java\jre7\classes;C:\Users\cnoreikis\.sbt\boot\scala-2.9.1\lib\scala-library.jar[0m
-[0m[[0mdebug[0m] [0m	-cp[0m
-[0m[[0mdebug[0m] [0m	C:\Users\cnoreikis\Desktop\ElevatorProject_2013\Code\ElevatorProject\target\scala-2.9.1\classes;C:\Users\cnoreikis\.ivy2\cache\org.scala-lang\scala-swing\jars\scala-swing-2.9.1.jar;C:\Users\cnoreikis\.ivy2\cache\org.scala-tools.time\time_2.9.1\jars\time_2.9.1-0.5.jar;C:\Users\cnoreikis\.ivy2\cache\joda-time\joda-time\jars\joda-time-1.6.2.jar[0m
-[0m[[0mdebug[0m] [0m	C:\Users\cnoreikis\Desktop\ElevatorProject_2013\Code\ElevatorProject\src\main\scala\controller\buttonController.scala[0m
-[0m[[0mdebug[0m] [0m	C:\Users\cnoreikis\Desktop\ElevatorProject_2013\Code\ElevatorProject\src\main\scala\controller\elevatorController.scala[0m
-[0m[[0mdebug[0m] [0m	C:\Users\cnoreikis\Desktop\ElevatorProject_2013\Code\ElevatorProject\src\main\scala\model\Elevator.scala[0m
-[0m[[31merror[0m] [0mC:\Users\cnoreikis\Desktop\ElevatorProject_2013\Code\ElevatorProject\src\main\scala\controller\buttonController.scala:3: expected class or object definition[0m
-[0m[[31merror[0m] [0mscala.collection.mutable.ArrayBuffer[0m
-[0m[[31merror[0m] [0m^[0m
-[0m[[31merror[0m] [0mC:\Users\cnoreikis\Desktop\ElevatorProject_2013\Code\ElevatorProject\src\main\scala\controller\elevatorController.scala:3: expected class or object definition[0m
-[0m[[31merror[0m] [0mscala.collection.mutable.ArrayBuffer[0m
-[0m[[31merror[0m] [0m^[0m
-[0m[[31merror[0m] [0mC:\Users\cnoreikis\Desktop\ElevatorProject_2013\Code\ElevatorProject\src\main\scala\controller\elevatorController.scala:54: illegal start of simple expression[0m
-[0m[[31merror[0m] [0m					if ( )[0m
-[0m[[31merror[0m] [0m					     ^[0m
-[0m[[31merror[0m] [0mC:\Users\cnoreikis\Desktop\ElevatorProject_2013\Code\ElevatorProject\src\main\scala\controller\elevatorController.scala:58: ')' expected but '}' found.[0m
-[0m[[31merror[0m] [0m				}[0m
-[0m[[31merror[0m] [0m				^[0m
-[0m[[31merror[0m] [0mC:\Users\cnoreikis\Desktop\ElevatorProject_2013\Code\ElevatorProject\src\main\scala\controller\elevatorController.scala:62: illegal start of simple expression[0m
-[0m[[31merror[0m] [0m					if ( )[0m
-[0m[[31merror[0m] [0m					     ^[0m
-[0m[[31merror[0m] [0mC:\Users\cnoreikis\Desktop\ElevatorProject_2013\Code\ElevatorProject\src\main\scala\controller\elevatorController.scala:66: ')' expected but '}' found.[0m
-[0m[[31merror[0m] [0m				}[0m
-[0m[[31merror[0m] [0m				^[0m
-[0m[[31merror[0m] [0mC:\Users\cnoreikis\Desktop\ElevatorProject_2013\Code\ElevatorProject\src\main\scala\controller\elevatorController.scala:79: illegal start of simple expression[0m
-[0m[[31merror[0m] [0m					if ( )[0m
-[0m[[31merror[0m] [0m					     ^[0m
-[0m[[31merror[0m] [0mC:\Users\cnoreikis\Desktop\ElevatorProject_2013\Code\ElevatorProject\src\main\scala\controller\elevatorController.scala:84: ')' expected but '}' found.[0m
-[0m[[31merror[0m] [0m				}[0m
-[0m[[31merror[0m] [0m				^[0m
-[0m[[31merror[0m] [0mC:\Users\cnoreikis\Desktop\ElevatorProject_2013\Code\ElevatorProject\src\main\scala\controller\elevatorController.scala:88: illegal start of simple expression[0m
-[0m[[31merror[0m] [0m					if ( )[0m
-[0m[[31merror[0m] [0m					     ^[0m
-[0m[[31merror[0m] [0mC:\Users\cnoreikis\Desktop\ElevatorProject_2013\Code\ElevatorProject\src\main\scala\controller\elevatorController.scala:93: ')' expected but '}' found.[0m
-[0m[[31merror[0m] [0m				}[0m
-[0m[[31merror[0m] [0m				^[0m
-[0m[[31merror[0m] [0mC:\Users\cnoreikis\Desktop\ElevatorProject_2013\Code\ElevatorProject\src\main\scala\model\Elevator.scala:1: expected class or object definition[0m
-[0m[[31merror[0m] [0mscala.collection.mutable.ArrayBuffer[0m
-[0m[[31merror[0m] [0m^[0m
-[0m[[31merror[0m] [0m11 errors found[0m
-[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
-Compilation failed
-	at xsbt.CompilerInterface.run(CompilerInterface.scala:93)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at sbt.compiler.AnalyzingCompiler.call(AnalyzingCompiler.scala:57)
-	at sbt.compiler.AnalyzingCompiler.compile(AnalyzingCompiler.scala:29)
-	at sbt.compiler.AnalyzingCompiler.compile(AnalyzingCompiler.scala:25)
-	at sbt.AggressiveCompile$$anonfun$5.compileScala$1(AggressiveCompile.scala:67)
-	at sbt.AggressiveCompile$$anonfun$5.apply(AggressiveCompile.scala:79)
-	at sbt.AggressiveCompile$$anonfun$5.apply(AggressiveCompile.scala:57)
-	at sbt.inc.IncrementalCompile$$anonfun$doCompile$1.apply(Compile.scala:21)
-	at sbt.inc.IncrementalCompile$$anonfun$doCompile$1.apply(Compile.scala:19)
-	at sbt.inc.Incremental$.cycle(Incremental.scala:33)
-	at sbt.inc.Incremental$.compile(Incremental.scala:20)
-	at sbt.inc.IncrementalCompile$.apply(Compile.scala:17)
-	at sbt.AggressiveCompile.compile2(AggressiveCompile.scala:87)
-	at sbt.AggressiveCompile.compile1(AggressiveCompile.scala:41)
-	at sbt.AggressiveCompile.apply(AggressiveCompile.scala:28)
-	at sbt.Compiler$.apply(Compiler.scala:107)
-	at sbt.Defaults$$anonfun$compileTask$1.apply(Defaults.scala:464)
-	at sbt.Defaults$$anonfun$compileTask$1.apply(Defaults.scala:464)
-	at sbt.Scoped$$anonfun$hf2$1.apply(Structure.scala:459)
-	at sbt.Scoped$$anonfun$hf2$1.apply(Structure.scala:459)
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:41)
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$9.apply(Structure.scala:271)
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$9.apply(Structure.scala:271)
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40)
-	at sbt.std.Transform$$anon$5.work(System.scala:67)
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221)
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221)
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:13)
-	at sbt.Execute.work(Execute.scala:227)
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221)
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221)
-	at sbt.CompletionService$$anon$1$$anon$2.call(CompletionService.scala:26)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-[0m[[31merror[0m] [0m{file:/C:/Users/cnoreikis/Desktop/ElevatorProject_2013/Code/ElevatorProject/}default-0f53eb/compile:[31mcompile[0m: Compilation failed[0m
+[debug] 
+[debug] Initial source changes: 
+[debug] 	removed:Set()
+[debug] 	added: Set(/home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/scala/model/Request.scala, /home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/scala/controller/elevatorController.scala)
+[debug] 	modified: Set(/home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/scala/controller/buttonController.scala, /home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/scala/model/Elevator.scala, /home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/scala/model/modelDirectionButton.scala)
+[debug] Removed products: Set()
+[debug] Modified external sources: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated sources: Set(/home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/scala/controller/buttonController.scala, /home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/scala/model/Request.scala, /home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/scala/model/Elevator.scala, /home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/scala/model/modelDirectionButton.scala, /home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/scala/controller/elevatorController.scala)
+[debug] 
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set()
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated sources: Set(/home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/scala/controller/buttonController.scala, /home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/scala/model/Request.scala, /home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/scala/model/Elevator.scala, /home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/scala/model/modelDirectionButton.scala, /home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/scala/controller/elevatorController.scala)
+[info] Compiling 5 Scala sources to /home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/target/scala-2.9.1/classes...
+[debug] Getting compiler-interface from component compiler for Scala 2.9.1
+[debug] Getting compiler-interface from component compiler for Scala 2.9.1
+[debug] Running cached compiler 7694837a, interfacing (CompilerInterface) with Scala compiler version 2.9.1.final
+[debug] Calling Scala compiler with arguments  (CompilerInterface):
+[debug] 	-bootclasspath
+[debug] 	/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/netx.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/plugin.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/modules/jdk.boot.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/classes:/home/eeach/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.9.1.jar
+[debug] 	-classpath
+[debug] 	/home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/target/scala-2.9.1/classes:/home/eeach/.ivy2/cache/org.scala-lang/scala-swing/jars/scala-swing-2.9.1.jar:/home/eeach/.ivy2/cache/org.scala-tools.time/time_2.9.1/jars/time_2.9.1-0.5.jar:/home/eeach/.ivy2/cache/joda-time/joda-time/jars/joda-time-1.6.2.jar
+[error] /home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/scala/controller/buttonController.scala:3: expected class or object definition
+[error] scala.collection.mutable.ArrayBuffer
+[error] ^
+[error] /home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/scala/controller/elevatorController.scala:3: expected class or object definition
+[error] scala.collection.mutable.ArrayBuffer
+[error] ^
+[error] /home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/scala/controller/elevatorController.scala:8: Missing closing brace `}' assumed here
+[error] 	var upButtonFloor1 = new modelDirectionButton(1,true,"up 1 direction")
+[error] 	^
+[error] /home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/scala/controller/elevatorController.scala:9: expected class or object definition
+[error] 	var upButtonFloor2 = new modelDirectionButton(2,true, "up 2 direction")
+[error] 	^
+[error] /home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/scala/controller/elevatorController.scala:10: expected class or object definition
+[error] 	var downButtonFloor3 = new modelDirectionButton(3,false, "down 3 direction")
+[error] 	^
+[error] /home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/scala/controller/elevatorController.scala:11: expected class or object definition
+[error]   var downButtonFloor2 = new modelDirectionButton(2,false, "down 2 direction")
+[error]   ^
+[error] /home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/scala/controller/elevatorController.scala:12: expected class or object definition
+[error]  	var floor1Button = new FloorButton(1,"floor 1 button")
+[error]  	^
+[error] /home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/scala/controller/elevatorController.scala:13: expected class or object definition
+[error] 	var floor2Button = new FloorButton(2, "floor 2 button")
+[error] 	^
+[error] /home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/scala/controller/elevatorController.scala:14: expected class or object definition
+[error] 	var floor3Button = new FloorButton(3,"floor 3 button")
+[error] 	^
+[error] /home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/scala/controller/elevatorController.scala:15: expected class or object definition
+[error]   var stopButton = new stopButton(2,"stop button")
+[error]   ^
+[error] /home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/scala/controller/elevatorController.scala:16: expected class or object definition
+[error]   var onePassenger = new Passenger()
+[error]   ^
+[error] /home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/scala/controller/elevatorController.scala:17: expected class or object definition
+[error]   var elevatorController = new elevatorController()
+[error]   ^
+[error] /home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/scala/controller/elevatorController.scala:19: expected class or object definition
+[error] 	def act
+[error] 	^
+[error] /home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/scala/controller/elevatorController.scala:20: expected class or object definition
+[error] 	{
+[error] 	^
+[error] /home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/scala/controller/elevatorController.scala:29: expected class or object definition
+[error] 	def processRequests(elevator:Elevator) = 
+[error] 	^
+[error] /home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/scala/controller/elevatorController.scala:48: expected class or object definition
+[error] 	def processFloor(elevator:Elevator) = {
+[error] 	^
+[error] /home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/scala/controller/elevatorController.scala:58: expected class or object definition
+[error] 	def checkDirection(elevator:Elevator, request:Request) = {
+[error] 	^
+[error] /home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/scala/controller/elevatorController.scala:68: expected class or object definition
+[error] 		def moveMotorUpOneFloor(elevator:Elevator)
+[error] 		^
+[error] /home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/scala/controller/elevatorController.scala:69: expected class or object definition
+[error] 		{
+[error] 		^
+[error] /home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/scala/controller/elevatorController.scala:79: expected class or object definition
+[error] 		def moveMotorDownOneFloor(elevator:Elevator)
+[error] 		^
+[error] /home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/scala/controller/elevatorController.scala:80: expected class or object definition
+[error] 		{
+[error] 		^
+[error] /home/eeach/Dropbox/001 - Univeristy of Iowa School Work/Object-Oriented Software Development/Project/ElevatorProject_2013/Code/ElevatorProject/src/main/scala/model/Elevator.scala:1: expected class or object definition
+[error] scala.collection.mutable.ArrayBuffer
+[error] ^
+[error] 22 errors found
+[debug] Compilation failed (CompilerInterface)
+[error] (compile:compile) Compilation failed
