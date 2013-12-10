@@ -67,10 +67,22 @@ class elevatorController
 	
 		def moveMotorUpOneFloor(elevator:Elevator)
 		{
-
+				var currentFloor = elevator.location
+				var desiredFt = (elevator.location == 1) ? 20 : 36
+				while (Motor.lineOut() != desiredFt)
+				{
+					Motor.up()
+				}
+				Motor.stop()
 		}
 		
 		def moveMotorDownOneFloor(elevator:Elevator)
 		{
-
+				var currentFloor = elevator.location
+				var desiredFt = (elevator.location == 3) ? 20 : 2
+				while (Motor.lineOut() != desiredFt)
+				{
+					Motor.down()
+				}
+				Motor.stop()
 		}
