@@ -21,8 +21,8 @@ class buttonController
 	{
 		while(true){
 			receive{
-				theElevator.Requests.add(new Request(true))
 				case "up 1 direction" => 
+						theElevator.Requests.add(new Request(upButtonFloor1.Floor))
 						onePassenger.pressButton(upButtonFloor1)
 						elevatorController.processRequests(theElevator)		
 				case "up 2 direction" =>

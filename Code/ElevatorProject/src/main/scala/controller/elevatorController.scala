@@ -26,64 +26,51 @@ class elevatorController
 	}
 	}
 
-	def processRequests(direction:Boolean, elevator:Elevator) = 
+	def processRequests(elevator:Elevator) = 
 	{
 		while (!(elevator.Requests.isEmpty()))
 		{
 			for(i <- elevator.Requests)
-			{	
-				if (elevator.location == i.desiredFloor){
-					elevatorDoor.open()
+				{	
+					processFloor(elevator)
+				}
+				else if (direction){
+					moveMotorUpOneFloor(elevator)
+					processFloor(elevator)					
+				}
+				else{
+					moveMotorDownOneFloor(elevator)
+					processFloor(elevator)
 				}
 			}
 		}
+
+	def processFloor(elevator:Elevator) = {
+		for (i <- elevator.requests) {
+			if ((i.requestedFloor == elevator.location) && checkDirection(elevator,i)){
+				elevatorDoors.open()
+				takeRequests()
+				elevatorDoors.close()
+			}
+		}
 	}
+
+	def checkDirection(elevator:Elevator, request:Request) = {
+		if (elevator.direction && request.requestedFloor > elevator.location){
+			true
+		}
+		else if (!(elevator.direction) && request.requestedFloor < elevator.location){
+			true
+		}
+		else false
+	}
+	
 		def moveMotorUpOneFloor(elevator:Elevator)
 		{
-				//Handle Model Side
-				elevator.location += 1
-				for (i <- elevator.upRequests)
-				{
-					//if the up request is on the floor equal to elevators current location
-					if ( )
-						{
-							//open elevator doors on this floor and accept up floor request
-						}
-				}
-				for (i <- elevator.downRequests)
-				{
-					//if the down request is on the floor equal to the elevators current location
-					if ( )
-						{
-							//open elevator doors on this floor and accept down floor requests
-						}
-				}
 
-				//handle gui
-				guiElevLocationController ! 1
 		}
 		
 		def moveMotorDownOneFloor(elevator:Elevator)
 		{
-				//Handle Model Side
-				elevator.location -= 1
-				for (i <- elevator.upRequests)
-				{
-					//if the up request is on the floor equal to elevators current location
-					if ( )
-						{
-							//open elevator doors on this floor and accept up floor request
-							//remove any request from the queues that are on this floor
-						}
-				}
-				for (i <- elevator.downRequests)
-				{
-					//if the down request is on the floor equal to the elevators current location
-					if ( )
-						{
-							//open elevator doors on this floor and accept down floor requests
-							//remove any request from the queue that are on this floor
-						}
-				}
-		}
+
 		}
