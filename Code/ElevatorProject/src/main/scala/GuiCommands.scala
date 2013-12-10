@@ -1,67 +1,50 @@
 object guiOutput {
+
 	def Floor1Up()
 	{
-		var buttonController = new buttonController()
-		buttonController.start()
-		buttonController ! "up 1 direction"
+		//Place your code here for when the up button is pressed on floor 1.
 		println("Floor 1 Up Button Pressed")
 	}
 	
 	def Floor2Up()
 	{
-		var buttonController = new buttonController()
-		buttonController.start()
-		
-		buttonController ! "up 2 direction"
+		//Place your code here for when the up button is pressed on floor 2.
 		println("Floor 2 Up Button Pressed")
 	}
 
 	def Floor2Down()
 	{
-		var buttonController = new buttonController()
-		buttonController.start()
-		
-		buttonController ! "down 2 direction"
+		//Place your code here for when the down button is pressed on floor2.
 		println("Floor 2 Down Button Pressed")
 	}
 
 	def Floor3Down()
 	{
-		var buttonController = new buttonController()
-		buttonController.start()
-		buttonController ! "down 3 direction"
+		//Place your code here for when the down button is pressed on floor3.
 		println("Floor 3 Down Button Pressed")
 	}
 
 	def elevFloor1()
 	{
-		var buttonController = new buttonController()
-		buttonController.start()
-		buttonController ! "floor 1 button"
+		//Place your code here for when the 1 button is pressed in the elevator.
 		println("Elevator Button 1 Pressed")
 	}
 
 	def elevFloor2()
 	{
-		var buttonController = new buttonController()
-		buttonController.start()
-		buttonController ! "floor 2 button"
+		//Place your code here for when the 2 button is pressed in the elevator
 		println("Elevator Button 2 Pressed")
 	}
 
 	def elevFloor3()
 	{
-		var buttonController = new buttonController()
-		buttonController.start()
-		buttonController ! "floor 3 button"
+		//Place your code here for when the 3 button is pressed in the elevator
 		println("Elevator Button 3 Pressed")
 	}
 
 	def elevStop()
 	{
-		var buttonController = new buttonController()
-		buttonController.start()
-		buttonController ! "stop button"
+		//Place your code here for when the stop button is pressed in the elevator
 		println("Elevator Stop Button Pressed")
 	}
 
