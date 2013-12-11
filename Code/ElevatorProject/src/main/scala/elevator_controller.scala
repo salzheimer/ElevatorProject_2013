@@ -52,7 +52,7 @@ class elevator_controller(top_floor:Int) extends Actor {
   def act = {
     while(true) {
       receive {
-
+				case _ => println("hi")
       }
     }
   }
